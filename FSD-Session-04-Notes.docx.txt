@@ -1,0 +1,393 @@
+﻿Session 04
+Internet Basics, Browsers, Full-Stack Overview & Cloud
+What are you going to learn in this session?
+In this session, you are going to build a clear mental model of how the web works from start to finish.
+
+
+You will understand:
+
+
+* What the internet actually is
+* How websites load when you type a URL
+* What IP addresses and domain names are
+* What HTTP and HTTPS mean
+* What a browser really does
+* What “full stack development” means
+* Why cloud computing exists
+* How to set up VS Code for upcoming coding sessions
+
+
+This session is about understanding the complete picture before you start writing serious code.
+
+
+By the end of this class, you should be able to clearly explain how a website loads—from typing a domain name to seeing a page on your screen.
+
+
+Why is this topic important?
+You cannot become a full stack developer if you do not understand how the web works.
+
+
+Imagine trying to repair a car without knowing how engines work. You might change parts randomly but never understand the system.
+
+
+Similarly, if you only learn coding syntax without understanding:
+
+
+* How the browser talks to a server
+* How data travels across the internet
+* Where frontend and backend fit
+* Why cloud is used
+
+
+Then your learning will remain incomplete.
+
+
+This session gives you clarity. It connects all previous sessions to the real world.
+
+
+After this session, when someone asks you:
+
+
+“How does a website load?”
+
+
+You should be able to explain it confidently in simple language.
+
+
+How should you prepare yourself to attend this session?
+Before attending:
+
+
+* Make sure you have a stable internet connection.
+* Install VS Code if possible.
+* Keep your laptop ready.
+* Keep a notebook for drawing small diagrams.
+* Be ready to think visually.
+
+
+This session is about building understanding, not memorizing definitions.
+
+
+You should focus on understanding the flow rather than technical depth.
+
+
+What should you do after the session?
+After this session:
+
+
+1. Draw the complete web flow from memory.
+2. Re-explain the client-server model in your own words.
+3. Revisit HTTP vs HTTPS and understand why security matters.
+4. Explore a few websites and observe HTTPS in the address bar.
+5. Make sure your VS Code is properly installed and working.
+
+
+This preparation will make upcoming coding sessions much smoother.
+
+
+Class Notes
+1. What is the Internet? (Simple Mental Model)
+The internet is a global network of connected computers.
+
+
+Think of it like a massive network of roads connecting millions of houses. Each house represents a computer or server.
+
+
+When you open a website, your computer is talking to another computer somewhere in the world.
+
+
+For example:
+
+
+* You type a website address.
+* Your browser sends a request.
+* A server receives that request.
+* The server sends back data.
+* Your browser displays it.
+
+
+This is called the client-server model.
+
+
+Client = Your browser or app Server = The computer that stores and sends website data
+
+
+Every website you visit follows this request–response model.
+
+
+2. Addresses on the Internet: IP & Domain Names
+Every computer connected to the internet has an IP address.
+
+
+An IP address is a numeric address like: 192.168.1.1
+
+
+But humans are not good at remembering numbers.
+
+
+So we use domain names.
+
+
+Example: google.com
+
+
+A domain name is a human-friendly name for an IP address.
+
+
+Now comes DNS.
+
+
+DNS stands for Domain Name System.
+
+
+DNS works like a phonebook of the internet.
+
+
+When you type:
+
+
+google.com
+
+
+The browser asks DNS: “What is the IP address for google.com?”
+
+
+DNS responds with the IP address.
+
+
+Then your browser connects to that server.
+
+
+Flow:
+
+
+You type domain → DNS finds IP → Browser connects to server → Server responds.
+
+
+3. HTTP vs HTTPS
+HTTP stands for HyperText Transfer Protocol.
+
+
+It is the basic method used to transfer web data.
+
+
+When your browser talks to a server, it uses HTTP.
+
+
+HTTPS is secure HTTP.
+
+
+The “S” stands for Secure.
+
+
+HTTPS ensures:
+
+
+* Data is encrypted.
+* Information cannot be easily stolen.
+* Communication is protected.
+
+
+Rule of thumb:
+
+
+If a website handles:
+
+
+* Login details
+* Passwords
+* Payments
+* Personal data
+
+
+It must use HTTPS.
+
+
+Today, almost all professional websites use HTTPS.
+
+
+4. What is a Web Browser?
+A browser is the tool that allows you to access websites.
+
+
+Examples include:
+
+
+* Google Chrome
+* Mozilla Firefox
+* Microsoft Edge
+
+
+A browser does three main things:
+
+
+1. Sends a request to a server
+2. Receives a response
+3. Displays content on your screen
+
+
+Websites are built using three main technologies:
+
+
+HTML → Structure CSS → Styling JavaScript → Interaction
+
+
+Think of a house:
+
+
+HTML = walls and structure CSS = paint and decoration JavaScript = electricity and interactive devices
+
+
+The browser reads these and renders the page.
+
+
+The DOM (Document Object Model) is simply the structured version of the page that JavaScript can work with.
+
+
+You do not need to go deeper right now.
+
+
+5. What is Full-Stack Development?
+Full stack development means building both frontend and backend parts of an application.
+
+
+Frontend is what users see and interact with.
+
+
+Frontend responsibilities include:
+
+
+* UI screens
+* Buttons
+* Forms
+* Input validation
+
+
+Backend is what works behind the scenes.
+
+
+Backend responsibilities include:
+
+
+* Authentication
+* Data storage
+* Business logic
+* APIs
+
+
+Let us take a simple example: Login form.
+
+
+Step 1: User enters email and password (frontend). Step 2: Frontend sends data to backend. Step 3: Backend checks credentials in the database. Step 4: Backend sends response (success or error). Step 5: Frontend displays result.
+
+
+That entire flow is full stack.
+
+
+If you understand both sides, you are a full stack developer.
+
+
+6. Cloud Computing (Simple Understanding)
+Earlier, companies had to buy physical servers and manage them.
+
+
+Now, they rent computing power over the internet.
+
+
+That is called cloud computing.
+
+
+Cloud means:
+
+
+Instead of owning machines, you rent them from companies like:
+
+
+* Amazon Web Services (AWS)
+* Microsoft Azure
+* Google Cloud Platform (GCP)
+
+
+Why cloud is used:
+
+
+* It scales easily.
+* It reduces upfront cost.
+* It is accessible globally.
+* It is reliable.
+
+
+There are three broad service types:
+
+
+IaaS – Rent virtual machines PaaS – Rent a platform to deploy apps SaaS – Rent ready-made software
+
+
+You do not need technical depth now. Just understand the idea of renting computing resources.
+
+
+7. VS Code Setup
+A code editor is a tool used to write code.
+
+
+VS Code (Visual Studio Code) is one of the most popular editors.
+
+
+Why it is widely used:
+
+
+* Lightweight
+* Supports many languages
+* Large extension ecosystem
+
+
+Steps you should complete:
+
+
+1. Install VS Code.
+2. Open it.
+3. Create a new folder.
+4. Open that folder in VS Code.
+5. Create a file called index.html.
+
+
+You are not writing complex code today.
+
+
+Just ensure:
+
+
+* You can open a folder.
+* You can create files.
+* You can save files.
+
+
+Install Prettier extension for automatic formatting.
+
+
+If possible, enable format on save so your code stays clean automatically.
+
+
+This setup prepares you for upcoming coding sessions.
+
+
+Key Takeaways
+* The internet is a global network of connected computers.
+* Websites follow the client-server model.
+* Domain names are human-friendly versions of IP addresses.
+* DNS acts like a phonebook for the internet.
+* HTTP transfers data; HTTPS secures it.
+* A browser requests, receives, and renders web content.
+* Full stack means frontend + backend.
+* Cloud is renting computing power over the internet.
+* VS Code is your primary coding tool going forward.
+
+
+After this session, you should clearly understand how a website loads and where your role as a full stack developer fits into that flow.
+
+
+You are now ready to start building real web applications in upcoming sessions.
+
+
+Interview Questions (Important)
+At the end of this milestone, please go through a set of Interview specific questions curated exclusively for you: FSD-Milestone-1-Interview Questions

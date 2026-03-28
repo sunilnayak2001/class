@@ -1,0 +1,550 @@
+﻿Session 02
+Essentials of Computer Programming
+
+
+What are you going to learn in this session?
+In this session, you are going to understand how programming actually works.
+
+
+You will learn:
+
+
+* Why programming exists in the first place
+* How computers understand instructions
+* What programming languages are
+* How code is converted into something a computer can execute
+* The core building blocks that are common across all programming languages
+
+
+This session is not about mastering any one language like Java, Python, or JavaScript. Instead, it is about understanding the foundation that is common to all programming languages.
+
+
+Think of this session as learning the grammar of programming before you start writing full essays in any language.
+
+
+
+
+Why is this topic important?
+Many beginners jump directly into writing code without understanding how programming works internally. This often leads to confusion later.
+
+
+If you understand:
+
+
+* Why computers need programming
+* How instructions are structured
+* How code gets executed
+* What core concepts are universal
+
+
+Then learning any programming language becomes much easier.
+
+
+Programming languages may change. Frameworks may change. But the core ideas behind programming remain the same.
+
+
+If Session 01 helped you understand the software industry, this session helps you understand the foundation of software itself.
+
+
+Without this foundation, you will feel like you are memorizing code. With this foundation, you will understand what you are doing.
+
+
+
+
+How should you prepare yourself to attend this session?
+You do not need any coding experience to attend this session.
+
+
+However, you should:
+
+
+* Come with curiosity.
+* Be ready to think logically.
+* Keep a notebook to note down new terms.
+* Avoid worrying about syntax.
+* Focus on concepts, not memorization.
+
+
+During this session, ask yourself:
+
+
+* Why does a computer need this?
+* What problem is this concept solving?
+* How does this idea apply to all languages?
+
+
+This mindset will help you build strong fundamentals.
+
+
+
+
+What should you do after the session?
+After this session:
+
+
+1. Review your notes and rewrite definitions in your own words.
+2. Practice writing simple pseudocode.
+3. Try explaining programming concepts to someone else in simple language.
+4. Reflect on how code flows from writing to execution.
+5. Prepare mentally for actual language-specific coding in upcoming sessions.
+
+
+This session gives you the mental model you need before touching real syntax.
+
+
+Class Notes
+1. Why Programming Exists
+Computers are extremely powerful machines. But they are also extremely simple.
+
+
+A computer does not understand:
+
+
+* English
+* Hindi
+* Emotions
+* Context
+
+
+It only understands electrical signals. At the lowest level, a computer understands binary — 0s and 1s.
+
+
+You can think of binary like a switch:
+
+
+* 1 means ON
+* 0 means OFF
+
+
+Inside your computer, billions of tiny switches turn on and off extremely fast.
+
+
+But imagine trying to control your laptop using only 0s and 1s. That would be nearly impossible for humans.
+
+
+So we created programming languages.
+
+
+Programming exists because computers need precise, step-by-step instructions.
+
+
+If you tell a computer:
+
+
+“Sort these numbers.”
+
+
+It cannot guess what you mean. You must specify:
+
+
+* Where the numbers are stored
+* How to compare them
+* What steps to repeat
+* When to stop
+
+
+Programming is simply writing very clear and very specific instructions.
+
+
+Think of it like giving directions to someone who follows instructions exactly and never assumes anything.
+
+
+
+
+2. Programming Languages Overview
+A programming language is a structured way of writing instructions for a computer.
+
+
+There are two broad categories:
+High-Level Languages
+Examples:
+
+
+* Python
+* Java
+* JavaScript
+
+
+These are easier for humans to read and write. They look closer to English.
+
+
+They hide complex details about hardware.
+Low-Level Languages
+Example:
+
+
+* Assembly
+
+
+These are closer to machine language and give more control over hardware.
+
+
+They are harder to read and write.
+
+
+You can think of this tradeoff like driving:
+
+
+* High-level language is like driving an automatic car.
+* Low-level language is like manually controlling every gear and mechanical part.
+
+
+Most modern development uses high-level languages because they improve productivity.
+
+
+
+
+3. Order of Instructions (Sequence)
+Programming depends heavily on order.
+
+
+Computers execute instructions line by line, from top to bottom (unless told otherwise).
+
+
+If you write:
+
+
+1. Print result
+2. Calculate result
+
+
+This will fail because the computer tries to print something that is not yet calculated.
+
+
+Programming is like a recipe.
+
+
+If you:
+
+
+* Bake the cake before mixing ingredients. It will not work.
+
+
+Order matters.
+
+
+
+
+4. From Code to Execution
+When you write code, you are writing source code.
+
+
+Source code is human-readable.
+
+
+But the computer cannot directly understand it.
+
+
+So it must be translated.
+
+
+There are two main approaches:
+Compiler
+A compiler translates the entire program into machine code before execution.
+
+
+After compilation, you get an executable file.
+
+
+Example conceptually: C++ → compiled → executable file → run
+Interpreter
+An interpreter translates and executes code line by line.
+
+
+Example conceptually: Python → interpreter reads → executes immediately
+
+
+Some languages combine both approaches.
+
+
+For example: Java → compiled to bytecode → executed by JVM JavaScript → executed by a JavaScript engine inside the browser
+
+
+You do not need to memorize the flows. Just understand:
+
+
+All human-written code must be translated before the computer can execute it.
+
+
+
+
+5. Core Programming Building Blocks
+Now we move to concepts common across all languages.
+Syntax
+Syntax is the grammar of a programming language.
+
+
+Just like English grammar has rules, programming languages have rules.
+
+
+If you break syntax rules, the program will not run.
+
+
+
+
+Keywords
+Keywords are reserved words that have special meaning.
+
+
+Examples:
+
+
+* if
+* else
+* return
+* function
+
+
+You cannot use these words as variable names.
+
+
+
+
+Identifiers
+Identifiers are names given to:
+
+
+* Variables
+* Functions
+
+
+For example:
+
+
+totalMarks
+calculateSum
+
+
+These names help humans understand the program.
+
+
+
+
+Case Sensitivity
+Many languages treat uppercase and lowercase differently.
+
+
+For example:
+
+
+age
+Age
+
+
+These may be treated as two different variables.
+
+
+
+
+Statements
+A statement is a single instruction.
+
+
+Example in pseudocode:
+
+
+SET x = 10
+PRINT x
+
+
+Each line is one instruction.
+
+
+
+
+Code Blocks and Scope
+A code block is a group of statements treated as one unit.
+
+
+For example, inside an if condition or loop.
+
+
+Scope defines where a variable is accessible.
+
+
+Think of scope like rooms in a house. A variable created inside one room may not be visible outside that room.
+
+
+
+
+Comments
+Comments are notes written inside code for humans.
+
+
+They are ignored by the computer.
+
+
+Example:
+
+
+# This calculates total marks
+
+
+Comments improve readability and maintainability.
+
+
+
+
+6. Fundamental Programming Concepts
+Variables
+A variable is a container that stores data.
+
+
+Think of it as a labeled box.
+
+
+If you write:
+
+
+SET age = 20
+
+
+You are storing the value 20 in a box called age.
+
+
+
+
+Data Types
+Different types of data exist:
+
+
+* Numbers (10, 3.14)
+* Text ("Hello")
+* Boolean (true / false)
+
+
+The computer needs to know what kind of data it is handling.
+
+
+
+
+Operators
+Operators perform actions.
+
+
+Examples:
+
+
+   * (addition)
+   * (subtraction)
+* == (comparison)
+
+
+If you write:
+
+
+IF age > 18
+
+
+The operator > compares values.
+
+
+
+
+Data Collections
+Sometimes you need to store multiple values.
+Arrays / Lists
+Store ordered values.
+
+
+Example:
+
+
+[10, 20, 30]
+Maps / Objects
+Store key-value pairs.
+
+
+Example:
+
+
+name: "John"
+age: 25
+
+
+________________
+
+
+Loops
+Loops repeat instructions.
+
+
+Example:
+
+
+FOR each number in list
+    PRINT number
+
+
+Loops save you from writing repetitive code.
+
+
+
+
+Conditionals
+Conditionals allow decision-making.
+
+
+Example:
+
+
+IF age > 18
+    PRINT "Adult"
+ELSE
+    PRINT "Minor"
+
+
+Conditionals make programs dynamic.
+
+
+
+
+Functions
+Functions are reusable blocks of code.
+
+
+Instead of writing the same logic multiple times, you define it once and call it when needed.
+
+
+Think of functions like a machine inside a factory. You give it input, it processes, and gives output.
+
+
+
+
+7. Object-Oriented Programming (Very High Level)
+As programs grow larger, organizing code becomes important.
+
+
+Object-Oriented Programming (OOP) is one way to structure large programs.
+
+
+Key concepts include:
+
+
+* Encapsulation
+* Inheritance
+* Polymorphism
+
+
+You do not need to understand these deeply right now. You only need to know that OOP helps organize complex systems.
+
+
+These concepts will be covered in detail later in the program.
+
+
+
+
+Key Takeaways
+* Computers only understand binary, so we use programming languages to communicate clearly.
+* Programming is writing precise, step-by-step instructions.
+* Code must be translated before execution.
+* Order of instructions matters.
+* Core concepts like variables, loops, conditionals, and functions exist in all languages.
+* Syntax is the grammar of programming.
+* Understanding concepts is more important than memorizing language-specific syntax.
+
+
+After this session, you should feel less intimidated by programming. You now understand the logic behind how it works.
+
+
+In upcoming sessions, you will begin applying these concepts in real programming languages.

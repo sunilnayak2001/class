@@ -1,0 +1,234 @@
+﻿Session 01
+Introduction to the Software Development Industry & Careers
+What are you going to learn in this session?
+Welcome to the program!
+
+
+In this session, you are going to understand what the software development industry actually is and how it works in the real world. You will learn how software is not just about coding, but about solving real problems for people and businesses.
+
+
+You will also explore different career paths inside software development, such as frontend, backend, and full stack development. You will understand how careers grow from beginner to expert level and what kind of mindset and habits are required to succeed.
+
+
+You will also get an introduction to modern industry trends like cloud computing, automation, cybersecurity, and generative AI. Most importantly, you will learn how to think like a professional software developer and how to prepare yourself for the journey ahead.
+
+
+This session is not about writing code. It is about understanding the world you are entering.
+Why is this topic important?
+Before you start learning technical concepts, you must understand the industry you are preparing to join.
+
+
+Imagine you are training to become a cricketer. Before you start practicing shots and bowling techniques, you should understand how cricket tournaments work, what roles exist in a team, how players grow in their careers, and what mindset is required. The same applies to software development.
+
+
+If you do not understand:
+* How software teams work
+* What roles exist
+* How careers grow
+* What skills matter
+* How the industry is changing
+
+
+Then you may learn tools without direction.
+
+
+This session helps you build clarity. When you know the bigger picture, your learning becomes purposeful. You stop learning randomly and start learning strategically.
+
+
+Understanding the industry also protects you from unrealistic expectations about salaries, shortcuts, or “quick success” promises. You will see clearly that growth in software comes from skill, discipline, and consistency.
+How should you prepare yourself to attend this session?
+You do not need any technical knowledge to attend this session. However, you should prepare yourself mentally.
+
+
+Before attending:
+* Keep a notebook ready. You will need to reflect on your goals.
+* Be ready to think about your career seriously.
+* Keep an open mind.
+* Avoid comparing yourself with others.
+* Come with curiosity.
+
+
+You should ask yourself:
+* Why do I want to enter software development?
+* Am I ready to practice consistently?
+* Am I willing to solve problems daily?
+
+
+This session will help you align your expectations with reality.
+What should you do after the session?
+After the session:
+1. Reflect on your career goals.
+2. Decide whether you want to pursue frontend, backend, or full stack in the long term (you do not need to finalize, but start thinking).
+3. Create a simple daily study routine.
+4. Write down the skills you need to develop beyond coding, such as communication and problem-solving.
+5. Mentally commit to consistency.
+
+
+This is the start of your professional journey. Treat it seriously.
+________________
+Class Notes
+1. Understanding the Software Industry
+The software industry is the industry that builds digital products and systems that run on computers, phones, and servers.
+
+
+Whenever you:
+* Use a mobile app
+* Book a cab
+* Make a digital payment
+* Order food online
+* Watch videos on streaming platforms
+* Use email or online meetings
+
+
+You are using software.
+
+
+Software is simply a set of instructions that tells a computer what to do.
+
+
+But the software industry is not limited to technology companies. Almost every industry uses software:
+* Banks use software for transactions.
+* Hospitals use software for patient records.
+* Schools use software for online classes.
+* Retail stores use software for billing and inventory.
+* Government departments use software for public services.
+
+
+So when you enter software development, you are not limited to “IT companies.” You can work in finance, healthcare, education, e-commerce, manufacturing, and many more sectors.
+Software is the backbone of modern businesses.
+2. Software Is Built by Teams
+Many beginners imagine a single programmer sitting alone and building everything. In reality, software is built by teams.
+
+
+A typical software team may include:
+Software Developer
+This person writes code and builds features.
+QA / Tester
+This person checks if the software works correctly and finds bugs.
+UI/UX Designer
+This person designs how the software looks and feels. They focus on user experience.
+Product / Project Manager
+This person decides what should be built, manages timelines, and coordinates the team.
+
+
+Think of it like making a movie. You have actors, directors, editors, scriptwriters, and producers. No one person does everything alone.
+
+
+As a developer, you will collaborate with multiple roles. Communication becomes very important.
+3. Career Paths in Software Development
+“Software Developer” is a broad term. There are different specializations.
+Frontend Development
+You build what users see and interact with. For example:
+* Buttons
+* Forms
+* Layout
+* Animations
+If a website is a restaurant, frontend is the dining area where customers sit.
+Backend Development
+You build the logic behind the scenes. For example:
+* Databases
+* Authentication
+* Server logic
+* APIs
+
+
+Using the restaurant analogy, backend is the kitchen where the food is prepared.
+Full Stack Development
+You work on both frontend and backend. You understand the complete system.
+
+
+Other roles exist like DevOps, Data Engineering, Cybersecurity, etc., but at this stage you only need awareness.
+4. Career Progression
+Most developers follow this path:
+* Junior Developer
+* Software Developer
+* Senior Developer
+* Tech Lead / Architect
+* Engineering Manager (optional path)
+
+
+Growth depends on:
+* Skill level
+* Problem-solving ability
+* Communication
+* Consistency
+* Real project experience
+
+
+You do not become senior in 6 months. Growth usually takes years of disciplined practice.
+Be patient. Focus on learning deeply.
+5. Skills & Mindset for Success
+Programming languages change. Frameworks change. Tools change.
+But these skills remain constant:
+Problem Solving
+You must learn to break big problems into smaller parts.
+Logical Thinking
+You should think step by step. Computers follow logic strictly.
+Communication
+You must explain your ideas clearly to teammates.
+Consistency
+Learning once a week is not enough. Daily practice is necessary.
+Avoid focusing only on salary. If you focus on skill, salary will follow.
+Avoid shortcuts. There is no replacement for understanding fundamentals.
+6. Industry Trends (High Level Awareness)
+Cloud Computing
+Instead of running software on personal computers, companies use powerful remote servers. Example: Hosting websites on cloud platforms.
+Automation
+Repetitive tasks are automated using software.
+Cybersecurity
+As digital systems grow, protecting them becomes critical.
+These trends shape opportunities but do not replace the need for strong fundamentals.
+7. Introduction to Generative AI
+Generative AI refers to systems that can generate content such as text, code, images, or music.
+
+
+Examples include:
+* AI tools that help write code.
+* AI tools that generate design ideas.
+* AI tools that assist in debugging.
+
+
+AI can:
+* Suggest code
+* Speed up development
+* Help with documentation
+* Automate repetitive tasks
+
+
+AI cannot:
+* Think creatively like a human in complex scenarios
+* Replace deep problem-solving skills
+* Take responsibility for software architecture decisions
+
+
+AI is like a calculator. It helps you calculate faster, but you must still understand mathematics.
+If you rely only on AI without understanding fundamentals, you will struggle.
+8. Learning Approach & Program Expectations
+To succeed in this program:
+* Practice daily.
+* Revise regularly.
+* Build small projects.
+* Ask doubts early.
+* Avoid skipping fundamentals.
+
+
+Common beginner mistakes:
+* Watching tutorials without practicing.
+* Jumping between technologies too quickly.
+* Comparing progress with others.
+* Focusing only on certificates.
+
+
+You must treat this like professional training, not casual learning.
+Consistency is more important than intelligence.
+Key Takeaways
+* The software industry impacts almost every industry in the world.
+* Software is built by teams, not individuals.
+* There are multiple career paths like frontend, backend, and full stack.
+* Growth takes time and consistent effort.
+* Problem-solving and logical thinking are more important than tools.
+* AI is a powerful assistant, but not a replacement for skills.
+* Your success depends on daily practice and discipline.
+
+
+This session marks the beginning of your professional journey. From now onward, you are not just a learner. You are a future software developer in training.

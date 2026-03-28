@@ -1,0 +1,195 @@
+﻿Session 03
+Problem Solving, Algorithms, Pseudocode & SDLC Basics
+
+
+What are you going to learn in this session?
+In this session, you are going to learn how programmers think.
+You will understand:
+* What problem solving means in software development
+* What an algorithm is and why it is important
+* How to write step-by-step solutions in plain English
+* What pseudocode is and how it connects ideas to real code
+* How software is built in the real world using a structured process called SDLC
+This session is not about writing complex programs. It is about learning how to think clearly before writing any code.
+Think of this session as learning how to plan before you build.
+
+
+Why is this topic important?
+Many beginners believe programming is about typing code. In reality, programming is about thinking.
+If you cannot think clearly:
+* You cannot design correct solutions
+* You cannot explain your ideas
+* You cannot debug errors
+* You cannot scale your software
+Code is just the final expression of your thinking.
+Imagine building a house without a plan. You start placing bricks randomly. The result will collapse.
+Similarly, if you write code without clear steps, your program will fail.
+This session teaches you how to:
+* Break problems into smaller parts
+* Organize your thoughts
+* Convert ideas into structured logic
+* Understand how real-world software is developed
+These skills are more important than memorizing syntax.
+
+
+How should you prepare yourself to attend this session?
+You should prepare yourself mentally to think step by step.
+Before attending:
+* Be ready to participate.
+* Do not focus on programming language syntax.
+* Be open to simple examples.
+* Keep a notebook ready.
+* Be ready to explain solutions in your own words.
+You must remember:
+Today is about thinking like a programmer.
+
+
+What should you do after the session?
+After this session:
+1. Practice writing step-by-step solutions for simple problems.
+2. Try converting daily tasks into algorithms.
+3. Write pseudocode for 2–3 small logical problems.
+4. Reflect on how structured thinking makes problems easier.
+5. Read about SDLC again and connect it with real apps you use.
+This practice will strengthen your logical thinking.
+
+
+Class Notes
+1. Problem Solving in Software
+Problem solving in software means taking a real-world problem and creating a clear, logical solution that a computer can follow.
+Software does not guess. It follows instructions exactly.
+So your job as a programmer is to:
+* Understand the problem
+* Break it into smaller steps
+* Arrange those steps in the correct order
+* Make sure nothing is missing
+Think about making tea.
+Steps might be:
+1. Boil water
+2. Add tea leaves
+3. Add sugar
+4. Add milk
+5. Pour into cup
+If you skip boiling water, the tea cannot be made.
+This sequence of steps is an algorithm.
+2. What is an Algorithm?
+An algorithm is simply a step-by-step solution to a problem.
+It must be:
+* Clear
+* Complete
+* In the correct order
+Example: Logging into an app
+1. Enter username
+2. Enter password
+3. Click login
+4. Check if credentials are correct
+5. If correct → open dashboard
+6. Else → show error
+That is an algorithm.
+It does not need to be complex. It just needs to be logical.
+Avoid thinking that algorithms are only for advanced math. They are simply structured instructions.
+3. From Problem to Algorithm
+Let us take a simple problem:
+Check whether a number is even or odd.
+Step 1: Understand the Problem
+You need to determine if a number is divisible by 2.
+Step 2: Identify Inputs and Outputs
+Input: A number
+Output: "Even" or "Odd"
+Step 3: Write Steps in Plain English
+1. Take the number
+2. Divide it by 2
+3. Check the remainder
+4. If remainder is 0 → number is even
+5. Otherwise → number is odd
+Notice that this is not code. It is thinking.
+This clarity makes coding easy later.
+4. Introduction to Pseudocode
+Pseudocode is structured plain English used to describe an algorithm.
+It is not a programming language.
+It does not follow strict syntax rules.
+It is just a bridge between thinking and coding.
+Guidelines for pseudocode:
+* Write clear steps
+* Use indentation for structure
+* Use words like IF, ELSE, LOOP
+* Keep it readable
+Let us convert our algorithm into pseudocode:
+START
+    INPUT number
+    IF number MOD 2 == 0
+        PRINT "Even"
+    ELSE
+        PRINT "Odd"
+END
+This is not tied to any specific programming language.
+It is structured thinking.
+Pseudocode helps you focus on logic without worrying about syntax errors.
+5. From Pseudocode to Code (Light Exposure)
+Now let us see how pseudocode might look in a real language.
+Example in JavaScript:
+let number = 10;
+
+
+if (number % 2 === 0) {
+    console.log("Even");
+} else {
+    console.log("Odd");
+}
+Notice how similar it is to pseudocode.
+The structure remains the same.
+You are not expected to understand every symbol yet.
+The goal is to see that:
+Good thinking → Clear pseudocode → Clean code.
+6. Why Process Matters – Introduction to SDLC
+In the real world, software is not built randomly.
+There is a process called SDLC — Software Development Life Cycle.
+You can think of SDLC as the life journey of a software product.
+Just like humans are born, grow, mature, and evolve, software also follows stages.
+If you skip stages, problems occur.
+SDLC ensures:
+* Clarity
+* Planning
+* Testing
+* Improvement
+Without process, software becomes messy and unstable.
+7. SDLC Phases (High Level)
+Let us understand SDLC through an example: a food delivery app.
+1. Planning
+Decide what to build.
+Example: Allow users to order food online.
+2. Design
+Decide how it should look and work.
+Example: Home page, restaurant list, cart system.
+3. Development
+Write the actual code.
+4. Testing
+Check if it works correctly.
+Does payment fail? Does login break?
+5. Deployment
+Release it to users.
+6. Maintenance
+Fix bugs and add improvements.
+This cycle continues again and again.
+Software is never truly “finished.”
+8. SDLC Methodologies (Awareness Only)
+Different teams follow different styles of working.
+You only need awareness at this stage.
+Waterfall
+Each phase is completed fully before moving to the next.
+Agile
+Work is divided into small iterations and continuous improvements.
+DevOps
+Development and operations teams work closely together for faster delivery and maintenance.
+You do not need to compare them right now. Just know they exist.
+Key Takeaways
+* Programming is about thinking clearly before writing code.
+* An algorithm is a step-by-step solution.
+* Good problem solving means breaking problems into smaller parts.
+* Pseudocode helps you express logic without worrying about syntax.
+* Real-world software follows SDLC, not random coding.
+* Planning and process are as important as coding skills.
+* Clear thinking leads to clean software.
+After this session, you should start observing daily life tasks as algorithms.
+From today onward, when you face a problem, do not think “How do I code this?”
+First think, “What are the steps?”
